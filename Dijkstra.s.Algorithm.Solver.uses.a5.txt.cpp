@@ -14,7 +14,7 @@
 //v is the cost of going directly to the destination node from the source node (if not connected, result is inf).
 //w is the lowest cost from the source to a connecting node, and cost[w,v] is the cost from that connecting node to the original destination.
 //The initial algorithm is then repeated with each successive result, until the lowest cost from the source to the destination is found.
-//NOTE: There is a known bug with this application: 2 of the 20 results for city E give an incorrect lowest cost path.  
+//NOTE: There is a known bug with this application: 2 of the results (specifically, for city E) give an incorrect lowest cost path.  
 //		    I am looking into this anomaly to try and find the issue.
 //
 
