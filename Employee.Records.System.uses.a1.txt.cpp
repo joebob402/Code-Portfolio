@@ -6,7 +6,7 @@
 //Written by Benjamin Malinowski
 //
 //This console application is a simple employee records system.
-//The records are stored within a text file, and are initially read in and sorted into alphabetical order.
+//The records are stored within a text file, and are initially read in and sorted into order by SSN.
 //The user is then given the option to add a new employee's information to the file.
 //Once all necessary information is given, the system prints the new entry, correctly formatted to match other entries.
 //The user may then enter another set of information, or decline to move to the search function.
